@@ -1,5 +1,5 @@
 RocketChat.settings.addGroup('FileUpload', function() {
-	this.add('FileUpload_Enabled', true, {
+	this.add('FileUpload_Enabled', false, {
 		type: 'boolean',
 		public: true
 	});
