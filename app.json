@@ -11,10 +11,10 @@
       "description": "Please re-enter your App Name from the top.",
       "required": true
     },
-    "DEPLOY_PLATFORM": "heroku"
-  },
-  "addons": [
-    "mongolab",
-    "logentries"
-  ]
+    "DEPLOY_PLATFORM": "heroku",
+    "MONGODB_URI": {
+      "description": "mongodb://user:pass@url:port/name",
+      "required": true
+    }
+  }
 }
