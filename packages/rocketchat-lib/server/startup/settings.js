@@ -754,7 +754,7 @@ RocketChat.settings.addGroup('General', function() {
 		type: 'string',
 		'public': true
 	});
-	this.add('Force_SSL', false, {
+	this.add('Force_SSL', true, {
 		type: 'boolean',
 		'public': true
 	});
